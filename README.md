@@ -28,7 +28,7 @@ Using your socket variable, use the `.send_string()` method to submit the data r
 	socket.send_string(f"{temperature}")
 	
     
-## How to programmatically RECIEVE data from the microservice
+## How to programmatically RECEIVE data from the microservice
 
 **Step 1: Prepare for the response**
 Once a request is made, the server recieve the request, process the data, and send its reply through the established socket. Set up a new variable, and use the .recv_string() method on your socket variable. This will have the program wait and listen for the reply
